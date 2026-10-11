@@ -140,5 +140,13 @@ export default function App() {
 
 ---
 
+---
+
+## 🙏 来源与署名 (Attribution)
+
+- **`liquid-metal`**：`resources/` 下的代码衍生自 **ThreeUI Community** 开源版本（MIT License，Copyright (c) 2026 Meng To / DesignCode），上游地址 https://github.com/MengTo/threeui 。ThreeUI 另有付费 Pro 版本，本仓库未收录任何 Pro 代码。本地改动（play 变体、材质染色、离屏暂停）同样以 MIT 发布，详见 `liquid-metal/NOTICE.md`。
+- **`liquid-glass`**：根据 glass.outpacestudios.com 的公开演示观察总结的原创 skill 定义、公式推导与示例脚本，灵感来源已注明；`SKILL.md` / `REFERENCE.md` / `scripts/` 为本仓库原创内容，以 MIT 发布。
+
+---
 ## 📄 License
 [MIT License](LICENSE)

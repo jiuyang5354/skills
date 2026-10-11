@@ -1,3 +1,9 @@
+/**
+ * Liquid Metal Button — derived from the ThreeUI Community edition.
+ * MIT License, Copyright (c) 2026 Meng To (DesignCode).
+ * Upstream source: https://github.com/MengTo/threeui
+ * Local adaptations: play-circle variant (diameter / strokeWidth props), tint hooks.
+ */
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 // For bundlers with ?raw support (Vite/Webpack 5/Turbopack) or inline string injection
