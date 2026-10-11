@@ -114,7 +114,8 @@ const liquidMetalPlayButtonSource = liquidMetalButtonSource
     "let needResize = true;\nlet playStrokeWidth = 3;"
   )
   .replace(
-    "const bw = Math.max(1.5, 3.2 * (BH/516));      // stroke half-width, device px",
+    // Match the stroke line with or without a trailing comment (the bundled HTML has comments stripped)
+    /const bw = Math\.max\(1\.5, 3\.2 \* \(BH\/516\)\);[^\n]*/,
     "const bw = Math.max(0.5 * DPR, playStrokeWidth * DPR * 0.5); // configurable stroke half-width, device px"
   )
   .replace(
