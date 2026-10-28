@@ -1,3 +1,5 @@
+**中文** | [English](README.en.md)
+
 # 🌊 Liquid Design Agent Skills
 
 > **面向 AI 智能体（Antigravity / Claude Code / Cursor / Codex）的工业级前端视觉与物理交互 Skill 库**。包含 **Outpace 物理折射流体玻璃** 与 **DesignCode WebGL 2 液态金属** 两套完整生产级技能定义、着色器管线与材质配方。
